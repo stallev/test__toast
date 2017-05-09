@@ -1,5 +1,5 @@
 .main{
-  background-color: orange;
+  background-color: orangered;
 }
 .box{
   height: 25px;
@@ -9,3 +9,14 @@
 .tinted{
   background-color: red;
 }
+@media (max-width: $toast-breakpoint-medium) {
+  .main{
+    background-color: blue;
+  }
+}
+@media (max-width: $toast-breakpoint-small) {
+  .main{
+    background-color: green;
+  }
+}
+
