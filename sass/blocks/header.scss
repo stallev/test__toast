@@ -1,7 +1,42 @@
 .header{
-
-}
-@media (max-width: $toast-breakpoint-small) {
+  background-image: url("../img/header_bg.jpg");
+  background-size: cover;
+  box-sizing: border-box;
+  padding-bottom: 180px;
+  &__call-us{
+    box-sizing: border-box;
+    border: 2px solid $action-link-color;
+    border-radius: 2px;
+    text-align: center;
+    &-link{
+      display: block;
+      padding: 15px 0;
+      color: $light-blue;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-size: $fsz12;
+      font-weight: 700;
+      text-align: center;
+    }
+  }
+  &__bottom-content{
+    box-sizing: border-box;
+    border: 4px solid $body-color;
+    border-radius: 4px;
+    padding: 50px 50px;
+  }
+  &__bottom-description{
+    opacity: 0.75;
+    color: $body-color;
+    font-size: $fsz18;
+    font-weight: 400;
+    line-height: $lh29;
+  }
+  &__toggle-btn{
+    display: none;
+  }
 }
 @media (max-width: $toast-breakpoint-medium) {
+}
+@media (max-width: $toast-breakpoint-small) {
 }

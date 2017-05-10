@@ -5,16 +5,416 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css">
   <link rel="stylesheet" href="css/style.css">
-  <title>Bootstrap</title>
+  <title>Travelling</title>
 </head>
 <body>
   <header class="header">
+    <div class="header__upper">
+      <div class="container container--header-upper">
+        <div class="header__logo-toggle col col--2-of-12">
+          <div class="logo">
+            <span class="logo__text">
+              mountains
+            </span>
+          </div>
+          <div class="header__toggle">
+            <button class="header__toggle-btn header__toggle-btn--cross"></button>
+            <button class="header__toggle-btn header__toggle-btn--hamburger"></button>
+          </div>
+        </div>
+        <nav class="nav nav--header col col--6-of-12">
+          <ul class="nav__list">
+            <li class="nav__item"><a class="nav__link nav__link--header-nav" href="#">our story</a></li>
+            <li class="nav__item"><a class="nav__link nav__link--header-nav" href="#">services</a></li>
+            <li class="nav__item"><a class="nav__link nav__link--header-nav" href="#">work</a></li>
+            <li class="nav__item"><a class="nav__link nav__link--header-nav" href="#">journal</a></li>
+            <li class="nav__item"><a class="nav__link nav__link--header-nav" href="#">contact</a></li>
+            <li class="nav__item"><a class="nav__link nav__link--header-nav" href="#">work</a></li>
+            <li class="nav__item"><a class="nav__link nav__link--header-nav" href="#">journal</a></li>
+          </ul>
+        </nav>
+        <div class="header__call-us col col--2-of-12 col--push-2-of-12">
+          <a href="#" class="header__call-us-link">call us</a>
+        </div>
+      </div>
+    </div>
+    <div class="header__bottom">
+      <div class="container container--header-bottom">
+        <div class="header__bottom-content">
+          <div class="page-title">
+            <h1 class="page-title__text-upper">
+              travel with us
+            </h1>
+            <span class="page-title__text-bottom">
+              to the mountains
+            </span>
+          </div>
+          <p class="header__bottom-description">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid
+          </p>
+          <a href="#" class="action-link action-link--header-bottom">
+            order now
+          </a>
+        </div>
+      </div>
+    </div>
   </header>
   <main class="main">
+    <section class="section about-us">
+      <div class="container container--about-us">
+        <h2 class="section__title section__title--small">
+          about us
+        </h2>
+        <p class="about-us__description">
+          Aliquam sed posuere urna, et gravida nisl. Praesent
+          interdum nisl libero, pretium egestas purus eleifend
+          vitae. Mauris suscipit vel lectus at luctus.
+        </p>
+        <a href="#" class="action-link action-link--read-more">
+          read more
+        </a>
+        <div class="about-us__images-block">
+          <img src="img/about_us_feet.jpg" alt="feet" class="about-us__img about-us__img--sm-img">
+          <img src="img/about_us_big_img.jpg" alt="feet" class="about-us__img about-us__img--big-img">
+        </div>
+      </div>
+    </section>
+    <section class="journal">
+      <div class="container container--journal">
+        <h2 class="section__title section__title--big">
+          journal
+        </h2>
+        <div class="journal__items-list">
+          <article class="journal__item">
+            <div class="journal__item-image"></div>
+            <div class="journal__item-content">
+              <span class="journal__item-short-msg">
+                tree
+              </span>
+              <h3 class="journal__item-title">
+                lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              </h3>
+              <p class="journal__item-description">
+                The way to a successful brand is hard, but always very interesting. Share the full story of your project – from the very first day until now.
+              </p>
+              <span class="journal__item-number">01</span>
+            </div>
+          </article>
+          <article class="journal__item">
+            <div class="journal__item-image"></div>
+            <div class="journal__item-content">
+              <span class="journal__item-short-msg">tree</span>
+              <h3 class="journal__item-title">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              </h3>
+              <p class="journal__item-description">
+                You know how to make best coffee in the universe? Or, maybe you’re very good in designing gloves? Tell everyone about your experience and skills.
+              </p>
+              <span class="journal__item-number">02</span>
+            </div>
+          </article>
+          <article class="journal__item">
+            <div class="journal__item-image"></div>
+            <div class="journal__item-content">
+              <span class="journal__item-short-msg">water</span>
+              <h3 class="journal__item-title">
+                little pieces of our proudness
+              </h3>
+              <p class="journal__item-description">
+                What do you do better than your competitors? What are you proud of? What details and advantages of your product you want people to know about?
+              </p>
+              <span class="journal__item-number">03</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="send-data">
+      <div class="container container--send-data">
+        <h2 class="section__title section__title--small">
+          do you wanna go?
+        </h2>
+        <p class="send-data__description"></p>
+        <form action="https://echo.htmlacademy.ru/" method="post" class="send-contacts">
+          <input type="text" class="send-data__field" placeholder="your name:">
+          <input type="tel" class="send-data__field" placeholder="your phone:">
+          <button type="button" class="action-link">
+            order now
+          </button>
+        </form>
+        <p class="send-data__promise">
+          * your data will not be transferred
+        </p>
+      </div>
+    </section>
+    <section class="section works">
+      <div class="container container--works">
+        <h2 class="section-title section-title--big">
+          how we work
+        </h2>
+        <div class="works__list">
+          <article class="works__item">
+            <span class="works__item-number">1</span>
+            <div class="works__item-icon"></div>
+            <h3 class="works__item-title">
+              Lorem ipsum dolor sit amet,
+            </h3>
+            <p class="works__item-description">
+              consectetur adipisicing elit, sed do eiusmod tempor incididunt
+            </p>
+          </article>
+          <article class="works__item">
+            <span class="works__item-number">2</span>
+            <div class="works__item-icon"></div>
+            <h3 class="works__item-title">
+              Lorem ipsum dolor sit amet,
+            </h3>
+            <p class="works__item-description">
+              consectetur adipisicing elit, sed do eiusmod tempor incididunt
+            </p>
+          </article>
+          <article class="works__item">
+            <span class="works__item-number">3</span>
+            <div class="works__item-icon"></div>
+            <h3 class="works__item-title">
+              Lorem ipsum dolor sit amet,
+            </h3>
+            <p class="works__item-description">
+              consectetur adipisicing elit, sed do eiusmod tempor incididunt
+            </p>
+          </article>
+          <article class="works__item">
+            <span class="works__item-number">4</span>
+            <div class="works__item-icon"></div>
+            <h3 class="works__item-title">
+              Lorem ipsum dolor sit amet,
+            </h3>
+            <p class="works__item-description">
+              consectetur adipisicing elit, sed do eiusmod tempor incididunt
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="section proposal">
+      <div class="container container--proposal">
+        <h2 class="section-title section-title--big">
+          travel with us
+        </h2>
+        <div class="proposal__list">
+          <article class="proposal__item">
+            <div class="proposal__item-rates">
+              <span class="proposal__item-rates-counter"></span>
+            </div>
+            <h3 class="proposal__item-title">
+              carpathian
+            </h3>
+            <p class="proposal__item-description">
+              Lorem ipsum dolor si amet, consectetur adipisicing elit
+            </p>
+            <div class="proposal__item-prices">
+              <span class="proposal__item-old-price">
+                3150$
+              </span>
+              <span class="proposal__item-new-price">
+                $793
+              </span>
+            </div>
+          </article>
+          <article class="proposal__item">
+            <div class="proposal__item-rates">
+              <span class="proposal__item-rates-counter"></span>
+            </div>
+            <h3 class="proposal__item-title">
+              carpathian
+            </h3>
+            <p class="proposal__item-description">
+              Lorem ipsum dolor si amet, consectetur adipisicing elit
+            </p>
+            <div class="proposal__item-prices">
+              <span class="proposal__item-old-price">
+                3150$
+              </span>
+              <span class="proposal__item-new-price">
+                $793
+              </span>
+            </div>
+          </article>
+          <article class="proposal__item">
+            <div class="proposal__item-rates">
+              <span class="proposal__item-rates-counter"></span>
+            </div>
+            <h3 class="proposal__item-title">
+              carpathian
+            </h3>
+            <p class="proposal__item-description">
+              Lorem ipsum dolor si amet, consectetur adipisicing elit
+            </p>
+            <div class="proposal__item-prices">
+              <span class="proposal__item-old-price">
+                3150$
+              </span>
+              <span class="proposal__item-new-price">
+                $793
+              </span>
+            </div>
+          </article>
+          <article class="proposal__item">
+            <div class="proposal__item-rates">
+              <span class="proposal__item-rates-counter"></span>
+            </div>
+            <h3 class="proposal__item-title">
+              carpathian
+            </h3>
+            <p class="proposal__item-description">
+              Lorem ipsum dolor si amet, consectetur adipisicing elit
+            </p>
+            <div class="proposal__item-prices">
+              <span class="proposal__item-old-price">
+                3150$
+              </span>
+              <span class="proposal__item-new-price">
+                $793
+              </span>
+            </div>
+          </article>
+          <article class="proposal__item">
+            <div class="proposal__item-rates">
+              <span class="proposal__item-rates-counter"></span>
+            </div>
+            <h3 class="proposal__item-title">
+              carpathian
+            </h3>
+            <p class="proposal__item-description">
+              Lorem ipsum dolor si amet, consectetur adipisicing elit
+            </p>
+            <div class="proposal__item-prices">
+              <span class="proposal__item-old-price">
+                3150$
+              </span>
+              <span class="proposal__item-new-price">
+                $793
+              </span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="section gallery">
+      <div class="container container--gallery">
+        <h2 class="section-title section-title--big">
+          gallery
+        </h2>
+        <div class="gallery__column">
+          <a href="#" class="gallery__link">
+            <img
+          src="http://lorempixel.com/300/300/business/" alt="" class="gallery__image">
+          </a>
+          <a href="#" class="gallery__link">
+            <img src="http://lorempixel.com/300/300/business/" alt="" class="gallery__image">
+          </a></div>
+        <div class="gallery__column">
+          <a href="#" class="gallery__link">
+            <img
+          src="http://lorempixel.com/300/300/business/" alt="" class="gallery__image">
+          </a>
+          <a href="#" class="gallery__link">
+            <img
+          src="http://lorempixel.com/300/300/business/" alt="" class="gallery__image">
+          </a>
+        </div>
+        <div class="gallery__column">
+          <a href="#" class="gallery__link">
+            <img
+          src="http://lorempixel.com/300/300/business/" alt="" class="gallery__image"></a>
+          <a href="#" class="gallery__link">
+            <img
+          src="http://lorempixel.com/300/300/business/" alt="" class="gallery__image">
+          </a>
+        </div>
+      </div>
+    </section>
+    <div class="clients">
+      <div class="container container--clients">
+        <ul class="clients__list">
+          <li class="clients__item"><a href="#"></a></li>
+          <li class="clients__item"><a href="#"></a></li>
+          <li class="clients__item"><a href="#"></a></li>
+          <li class="clients__item"><a href="#"></a></li>
+          <li class="clients__item"><a href="#"></a></li>
+          <li class="clients__item"><a href="#"></a></li>
+        </ul>
+      </div>
+    </div>
+    <section class="section recalls">
+      <div class="container container--recalls">
+        <h2 class="section-title section-title--big">
+          our clients say
+        </h2>
+        <div class="recalls__list">
+          <div class="recalls__item">
+            <p class="recalls__item-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do  enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            </p>
+            <div class="recalls__item-user">
+              <div class="recalls__item-user-photo"></div>
+              <span class="recalls__item-username">
+                Pavliv Yaroslav
+              </span>
+              <span class="recalls__item-user-job">
+                 Web designer
+              </span>
+            </div>
+          </div>
+          <div class="recalls__item">
+            <p class="recalls__item-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            </p>
+            <div class="recalls__item-user">
+              <div class="recalls__item-user-photo"></div>
+              <span class="recalls__item-username">
+                John Scott
+              </span>
+              <span class="recalls__item-user-job">
+                The Fringe
+              </span>
+            </div>
+          </div>
+        </div>
+        <article class="recalls__maker">
+          <h3 class="recalls__maker-title">
+            contacts
+          </h3>
+          <p class="recalls__maker-description">
+            sign up for our newsletter to receive updates
+          </p>
+          <form action="https://echo.htmlacademy.ru/" method="post" class="recalls__maker-form">
+            <input type="text" class="recalls__maker-field" placeholder="name">
+            <input type="tel" class="recalls__maker-field" placeholder="phone">
+            <input type="email" class="recalls__maker-field" placeholder="email">
+            <button type="button" class="recalls__maker-submit action-link">
+              send
+            </button>
+          </form>
+        </article>
+      </div>
+    </section>
   </main>
-  <footer>
+  <footer class="footer">
+    <span class="footer__copyright">
+      all rights reserved 2015
+    </span>
+    <div class="footer__social social">
+      <a href="#" class="social__link social__link--twitter"></a>
+      <a href="#" class="social__link social__link--facebook"></a>
+      <a href="#" class="social__link social__link--vk"></a>
+    </div>
+    <a href="tel:12345678" class="footer__tel">
+      1 234 243 123
+    </a>
   </footer>
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
+

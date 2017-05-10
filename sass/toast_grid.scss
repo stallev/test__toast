@@ -39,11 +39,11 @@ $toast-grid-column-namespace: "col" !default;
 $toast-col-groups: (2, 3, 4, 5, 6, 8, 12) !default;
 
 // Gutter width
-$toast-gutter-width: 20px !default;
+$toast-gutter-width: 15px !default;
 
 // Breakpoints
-$toast-breakpoint-medium: 700px !default;
-$toast-breakpoint-small: 480px !default;
+$toast-breakpoint-medium: 1170px !default;
+$toast-breakpoint-small: 900px !default;
 
 // Pushes and pulls
 $toast-pushes: true !default;

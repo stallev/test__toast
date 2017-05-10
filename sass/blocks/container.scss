@@ -1,7 +1,9 @@
 .container{
-
-}
-@media (max-width: $toast-breakpoint-small) {
+  width: 1170px;
+  padding: 15px 0;
+  margin: 0 auto;
 }
 @media (max-width: $toast-breakpoint-medium) {
+}
+@media (max-width: $toast-breakpoint-small) {
 }
