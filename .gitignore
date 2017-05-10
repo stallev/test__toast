@@ -5,6 +5,7 @@
 *.pdf
 *.psd
 *.sublime*
+.publish/
 build/
 psd/
 css/*.css
