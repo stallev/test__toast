@@ -1,0 +1,9 @@
+.logo{
+  &__text{
+    font-family: 'Bringin', 'Arial', sans-serif;
+    font-size: $fsz29;
+    line-height: $lh44;
+    text-transform: capitalize;
+    color: $light-blue;
+  }
+}

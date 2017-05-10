@@ -1,0 +1,17 @@
+.page-title{
+  &__text-upper{
+    color: $body-color;
+    font-size: $fsz50;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  &__text-bottom{
+    font-family: 'Bringin', 'Arial', sans-serif;
+    font-size: $fsz66;
+    line-height: $lh40;
+    font-weight: normal;
+    text-align: left;
+    color: $page-title-bottom-color;
+  }
+}

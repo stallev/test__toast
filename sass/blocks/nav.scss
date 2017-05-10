@@ -1,0 +1,19 @@
+.nav{
+  &__list{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+  }
+  &__item{
+    list-style: none;
+  }
+  &__link{
+    font-size: $fsz12;
+    line-height: $lh44;
+    font-weight: 700;
+    color: $nav-link-color;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+}
