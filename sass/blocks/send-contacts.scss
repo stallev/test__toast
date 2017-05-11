@@ -1,0 +1,48 @@
+.send-contacts{
+  background-color: $gray-section-bg;
+  background-image: url("../img/send-contacts_bg.png");
+  background-size: cover;
+  background-position: top;
+  &__description{
+    color: $gray-section-content-color;
+    font-size: $fsz16;
+    font-weight: 400;
+    line-height: $lh26;
+  }
+  &__form{
+    border-radius: 4px;
+    background-color: $body-color;
+    padding-left: 0;
+  }
+  &__field{
+    padding: 10px 10px;
+    box-sizing: border-box;
+    color: $form-contacts-input-text-color;
+    font-size: $fsz16;
+    line-height: $lh26;
+    font-weight: 400;
+    text-transform: inherit;
+    border: 2px solid transparent;
+    outline: none;
+    &:focus{
+      border-color: $input-border-focus-color;
+    }
+  }
+  &__promise{
+    position: relative;
+    padding-left: 40px;
+    color: $light-blue;
+    font-size: $fsz14;
+    font-weight: 400;
+    line-height: $lh34;
+    &::before{
+      position: absolute;
+      content: "";
+      left: -20px;
+      top: 1px;
+      width: 14px;
+      height: 16px;
+      background-image: url("../img/lock-locked.png");
+    }
+  }
+}

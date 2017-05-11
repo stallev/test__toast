@@ -12,4 +12,11 @@
   box-shadow: 0 0 35px rgba(3, 3, 3, 0.06);
   border-radius: 4px;
   background-color: $light-blue;
+  &--about-us{
+    padding: 0 20px;
+    font-size: $fsz12;
+    font-weight: 700;
+    line-height: $lh43;
+
+  }
 }

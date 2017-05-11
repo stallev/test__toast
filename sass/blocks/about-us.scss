@@ -1,0 +1,27 @@
+.about-us{
+  background-color: $gray-section-bg;
+  &__content{
+  }
+  &__description{
+    color: $gray-section-content-color;
+    font-size: $fsz14;
+    font-weight: 400;
+    line-height: $lh26;
+  }
+  &__images-block{
+    position: relative;
+  }
+  &__img{
+    position: absolute;
+    &--sm-img{
+      top: 30px;
+      left: 20px;
+      z-index: 4;
+    }
+    &--big-img{
+      top: -300px;
+      left: 250px;
+      z-index: 3;
+    }
+  }
+}

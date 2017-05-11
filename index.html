@@ -60,20 +60,22 @@
     </div>
   </header>
   <main class="main">
-    <section class="section about-us">
+    <section class="about-us">
       <div class="container container--about-us">
-        <h2 class="section__title section__title--small">
-          about us
-        </h2>
-        <p class="about-us__description">
-          Aliquam sed posuere urna, et gravida nisl. Praesent
-          interdum nisl libero, pretium egestas purus eleifend
-          vitae. Mauris suscipit vel lectus at luctus.
-        </p>
-        <a href="#" class="action-link action-link--read-more">
-          read more
-        </a>
-        <div class="about-us__images-block">
+        <div class="about-us__content col col--4-of-12">
+          <h2 class="section-title section-title--small">
+            about us
+          </h2>
+          <p class="about-us__description">
+            Aliquam sed posuere urna, et gravida nisl. Praesent
+            interdum nisl libero, pretium egestas purus eleifend
+            vitae. Mauris suscipit vel lectus at luctus.
+          </p>
+          <a href="#" class="action-link action-link--about-us">
+            read more
+          </a>
+        </div>
+        <div class="about-us__images-block col col--8-of-12">
           <img src="img/about_us_feet.jpg" alt="feet" class="about-us__img about-us__img--sm-img">
           <img src="img/about_us_big_img.jpg" alt="feet" class="about-us__img about-us__img--big-img">
         </div>
@@ -81,12 +83,12 @@
     </section>
     <section class="journal">
       <div class="container container--journal">
-        <h2 class="section__title section__title--big">
+        <h2 class="section-title section-title--big">
           journal
         </h2>
         <div class="journal__items-list">
           <article class="journal__item">
-            <div class="journal__item-image"></div>
+            <div class="journal__item-image journal__item-image--1"></div>
             <div class="journal__item-content">
               <span class="journal__item-short-msg">
                 tree
@@ -101,7 +103,7 @@
             </div>
           </article>
           <article class="journal__item">
-            <div class="journal__item-image"></div>
+            <div class="journal__item-image journal__item-image--2"></div>
             <div class="journal__item-content">
               <span class="journal__item-short-msg">tree</span>
               <h3 class="journal__item-title">
@@ -114,7 +116,7 @@
             </div>
           </article>
           <article class="journal__item">
-            <div class="journal__item-image"></div>
+            <div class="journal__item-image journal__item-image--3"></div>
             <div class="journal__item-content">
               <span class="journal__item-short-msg">water</span>
               <h3 class="journal__item-title">
@@ -129,21 +131,21 @@
         </div>
       </div>
     </section>
-    <section class="send-data">
-      <div class="container container--send-data">
-        <h2 class="section__title section__title--small">
+    <section class="send-contacts">
+      <div class="container container--send-contacts">
+        <h2 class="section-title section-title--small">
           do you wanna go?
         </h2>
-        <p class="send-data__description"></p>
-        <form action="https://echo.htmlacademy.ru/" method="post" class="send-contacts">
-          <input type="text" class="send-data__field" placeholder="your name:">
-          <input type="tel" class="send-data__field" placeholder="your phone:">
-          <button type="button" class="action-link">
+        <p class="send-contacts__description"></p>
+        <form action="https://echo.htmlacademy.ru/" method="post" class="send-contacts__form col col--3-of-4">
+          <input type="text" class="send-contacts__field col col--4-of-12" placeholder="Your name:">
+          <input type="tel" class="send-contacts__field col col--4-of-12" placeholder="Your phone:">
+          <button type="button" class="action-link col col--4-of-12">
             order now
           </button>
         </form>
-        <p class="send-data__promise">
-          * your data will not be transferred
+        <p class="send-contacts__promise">
+          * Your data will not be transferred
         </p>
       </div>
     </section>

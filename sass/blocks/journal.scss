@@ -1,0 +1,127 @@
+.journal{
+  &__items-list{
+    display: flex;
+    font-size: 0;
+  }
+  &__item{
+    display: flex;
+    flex-direction: column;
+    width: 33.333333%;
+    &-content{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-sizing: border-box;
+      padding: 40px 70px;
+    }
+    &-short-msg{
+      display: block;
+      color: $journal-item-short-msg-color;
+      font-size: $fsz12;
+      font-weight: 700;
+      line-height: $lh13;
+      text-transform: uppercase;
+      text-align: center;
+    }
+    &-title{
+      color: $journal-item-title-color;
+      font-size: $fsz17;
+      font-weight: 700;
+      line-height: $lh26;
+      text-transform: uppercase;
+      text-align: center;
+    }
+    &-description{
+      color: #777777;
+      font-size: $fsz15;
+      font-weight: 400;
+      line-height: $lh24;
+      text-align: center;
+    }
+    &-number{
+      display: block;
+      color: #212121;
+      font-size: $fsz15;
+      font-weight: 400;
+      font-style: italic;
+      line-height: $lh18;
+      text-align: center;
+    }
+    &-image,
+    &-content{
+      width: 100%;
+      height: 380px;
+    }
+    &-image{
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;
+      &::before{
+        position: absolute;
+        content: "";
+        background-repeat: no-repeat;
+      }
+      &::after{
+        position: absolute;
+        content: "";
+        border: 10px solid transparent;
+        border-bottom: 10px solid $body-color;
+        z-index: 20;
+      }
+    }
+  }
+}
+.journal__item-image--1{
+  background-image: url("../img/journal-image1.jpg");
+}
+.journal__item-image--2{
+  background-image: url("../img/journal-image2.jpg");
+}
+.journal__item-image--3{
+  background-image: url("../img/journal-image3.jpg");
+}
+.journal__item:nth-child(even){
+  flex-direction: column-reverse;
+}
+.journal__item:nth-child(n) .journal__item-image{
+  &::before{
+    background-image: url("../img/icon-heart-circle.png");
+    width: 81px;
+    height: 81px;
+    top: calc(50% - 40px);
+    left: calc(50% - 40px);
+  }
+  &::after{
+    top: 25px;
+    right: 0;
+    transform: rotate(-90deg);
+  }
+}
+.journal__item:nth-child(2n) .journal__item-image{
+  &::before{
+    background-image: url("../img/icon-tree-leaf.png");
+    width: 65px;
+    height: 65px;
+    top: calc(50% - 23px);
+    left: calc(50% - 23px);
+  }
+  &::after{
+    top: 25px;
+    right: 0;
+    transform: rotate(-90deg);
+  }
+}
+.journal__item:nth-child(3n) .journal__item-image{
+  &::before{
+    background-image: url("../img/icon-blob.png");
+    width: 59px;
+    height: 74px;
+    top: calc(50% - 37px);
+    left: calc(50% - 20px);
+  }
+  &::after{
+    top: 25px;
+    right: 0;
+    transform: rotate(-90deg);
+  }
+}

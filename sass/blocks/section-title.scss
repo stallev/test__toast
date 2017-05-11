@@ -1,0 +1,36 @@
+.section-title{
+  position: relative;
+  color: $section-title-color;
+  text-transform: uppercase;
+  font-weight: 700;
+  &::before{
+    position: absolute;
+    content: "";
+    width: 81px;
+    height: 7px;
+    background-image: url("section-waves.svg");
+  }
+  &--small{
+    font-size: $fsz20;
+    line-height: $lh43;
+    margin: 20px 0;
+    &::before{
+      left: 0;
+      top: -30px;
+    }
+  }
+  &--big{
+    margin-top: 110px;
+    margin-bottom: 80px;
+    font-size: $fsz30;
+    font-weight: 700;
+    line-height: $lh43;
+    text-transform: uppercase;
+    text-align: center;
+    &::before{
+      left: 25px;
+      top: -40px;
+    }
+
+  }
+}
