@@ -1114,7 +1114,7 @@ body
 
     content: '';
 
-    background-image: url('section-waves.svg');
+    background-image: url('../img/section-waves.svg');
 }
 .section-title--small
 {
@@ -1143,7 +1143,7 @@ body
 .section-title--big::before
 {
     top: -40px; 
-    left: 25px;
+    left: calc(50% - 25px);
 }
 
 .send-contacts
@@ -1211,4 +1211,110 @@ body
     content: '';
 
     background-image: url('../img/lock-locked.png');
+}
+
+.works
+{
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-size: 0;
+}
+.works__item
+{
+    display: inline-block;
+
+    vertical-align: top;
+}
+.works__item-number
+{
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 42px;
+
+    display: block;
+
+    box-sizing: border-box;
+    width: 48px;
+    height: 48px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+
+    text-align: center;
+    text-transform: uppercase; 
+
+    color: #3bb0eb;
+    border: 3px solid #3ab0e7;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.works__item-icon
+{
+    line-height: 174px; 
+
+    width: 179px;
+    height: 179px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+    text-align: center;
+
+    background-image: url('../img/works-icon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.works__item-icon-image
+{
+    display: inline-block;
+
+    width: 115px;
+    height: 125px;
+
+    vertical-align: middle;
+
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.works__item-title
+{
+    font-size: 18px;
+    font-weight: 900; 
+    line-height: 24px;
+
+    margin: 0 auto;
+    margin-bottom: 5px;
+
+    text-align: center;
+
+    color: #2c2e37;
+}
+.works__item-description
+{
+    font-size: 16px;
+    font-weight: 300; 
+    line-height: 24px;
+
+    margin: 0 auto;
+
+    text-align: center;
+
+    color: #949494;
+}
+
+.works__item:nth-child(1) .works__item-icon-image
+{
+    background-image: url('../img/works-detail1.svg');
+}
+
+.works__item:nth-child(2) .works__item-icon-image
+{
+    background-image: url('../img/works-detail2.svg');
+}
+
+.works__item:nth-child(3) .works__item-icon-image
+{
+    background-image: url('../img/works-detail3.svg');
+}
+
+.works__item:nth-child(4) .works__item-icon-image
+{
+    background-image: url('../img/works-detail4.svg');
 }
