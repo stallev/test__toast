@@ -8,7 +8,7 @@
     content: "";
     width: 81px;
     height: 7px;
-    background-image: url("section-waves.svg");
+    background-image: url("../img/section-waves.svg");
   }
   &--small{
     font-size: $fsz20;
@@ -28,7 +28,7 @@
     text-transform: uppercase;
     text-align: center;
     &::before{
-      left: 25px;
+      left: calc(50% - 25px);
       top: -40px;
     }
 
