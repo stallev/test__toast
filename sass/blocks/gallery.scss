@@ -1,0 +1,16 @@
+.gallery{
+  margin-bottom: 90px;
+  &__column{
+
+  }
+  &__link{
+    display: block;
+    margin-bottom: 15px;
+  }
+  &__image{
+
+  }
+}
+.gallery__link:nth-last-child(1){
+  margin-bottom: 0;
+}
