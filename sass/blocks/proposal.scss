@@ -3,45 +3,56 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  padding-bottom: 450px;
   &__list{
     font-size: 0;
   }
   &__item{
     display: inline-block;
     width: 200px;
-    height: 382px;
-    padding: 0 25px;
     margin-right: 35px;
     box-sizing: border-box;
     border-radius: 5px;
     background-repeat: no-repeat;
     &-rates{
       box-sizing: border-box;
-      padding-left: 18px;
+      margin-bottom: 55px;
+      text-align: left;
+      padding: 0 15px;
       &-counter{
-        display: block;
+        display: inline-block;
         height: 70px;
         background-image: url("../img/conter-stars.png");
         background-repeat: no-repeat;
+        background-position: -26px -10px;
       }
     }
     &-title{
-      margin-bottom: 20px;
+      margin-bottom: 10px;
+      padding: 0 15px;
       color: #ffffff;
       font-size: 28px;
       font-weight: 400;
-      line-height: 63px;
+      line-height: 28px;
     }
     &-description{
+      margin: 5px 0 91px;
+      padding: 0 15px;
       color: #ffffff;
       font-size: 16px;
       font-weight: 400;
       line-height: 22px;
     }
     &-prices{
-
+      font-size: 0;
+      background-color: rgba(0, 0, 0, 0.2);
     }
     &-old-price{
+      display: inline-block;
+      box-sizing: border-box;
+      width: 50%;
+      padding: 19px 0 19px 15px;
+      text-align: left;
       color: #ffffff;
       font-size: 18px;
       font-weight: 400;
@@ -50,6 +61,11 @@
 
     }
     &-new-price{
+      display: inline-block;
+      box-sizing: border-box;
+      width: 50%;
+      padding: 18px 15px 18px 0;
+      text-align: right;
       color: #ffffff;
       font-size: 26px;
       font-weight: 700;
@@ -60,31 +76,31 @@
 .proposal__item:nth-child(1){
   background-image: url("../img/prop-img1.jpg");
   & .proposal__item-rates-counter{
-    width: 79px;
+    width: 58px;
   }
 }
 .proposal__item:nth-child(2){
   background-image: url("../img/prop-img2.jpg");
   & .proposal__item-rates-counter{
-    width: 79px;
+    width: 104px;
   }
 }
 .proposal__item:nth-child(3){
   background-image: url("../img/prop-img3.jpg");
   & .proposal__item-rates-counter{
-    width: 79px;
+    width: 104px;
   }
 }
 .proposal__item:nth-child(4){
   background-image: url("../img/prop-img4.jpg");
   & .proposal__item-rates-counter{
-    width: 79px;
+    width: 104px;
   }
 }
 .proposal__item:nth-child(5){
   background-image: url("../img/prop-img5.jpg");
   & .proposal__item-rates-counter{
-    width: 79px;
+    width: 58px;
   }
 }
 .proposal__item:nth-child(5n){
