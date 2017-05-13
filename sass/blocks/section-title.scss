@@ -28,9 +28,8 @@
     text-transform: uppercase;
     text-align: center;
     &::before{
-      left: calc(50% - 25px);
+      left: calc(50% - 40px);
       top: -40px;
     }
-
   }
 }
