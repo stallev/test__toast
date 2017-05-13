@@ -753,6 +753,22 @@ body
     padding: 150px 0 350px;
 }
 
+.gallery
+{
+    margin-bottom: 90px;
+}
+.gallery__link
+{
+    display: block;
+
+    margin-bottom: 15px;
+}
+
+.gallery__link:nth-last-child(1)
+{
+    margin-bottom: 0;
+}
+
 .journal__items-list
 {
     font-size: 0; 
@@ -1095,6 +1111,160 @@ body
     color: #56c7ff;
 }
 
+.proposal
+{
+    padding-bottom: 450px; 
+
+    background-image: url('../img/proposal-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.proposal__list
+{
+    font-size: 0;
+}
+.proposal__item
+{
+    display: inline-block;
+
+    box-sizing: border-box;
+    width: 200px;
+    margin-right: 35px;
+
+    border-radius: 5px;
+    background-repeat: no-repeat;
+}
+.proposal__item-rates
+{
+    box-sizing: border-box;
+    margin-bottom: 55px;
+    padding: 0 15px; 
+
+    text-align: left;
+}
+.proposal__item-rates-counter
+{
+    display: inline-block;
+
+    height: 70px;
+
+    background-image: url('../img/conter-stars.png');
+    background-repeat: no-repeat;
+    background-position: -26px -10px;
+}
+.proposal__item-title
+{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 28px; 
+
+    margin-bottom: 10px;
+    padding: 0 15px;
+
+    color: #fff;
+}
+.proposal__item-description
+{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px; 
+
+    margin: 5px 0 91px;
+    padding: 0 15px;
+
+    color: #fff;
+}
+.proposal__item-prices
+{
+    font-size: 0;
+
+    background-color: rgba(0, 0, 0, .2);
+}
+.proposal__item-old-price
+{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+
+    display: inline-block;
+
+    box-sizing: border-box;
+    width: 50%;
+    padding: 19px 0 19px 15px;
+
+    text-align: left;
+    text-decoration: line-through; 
+
+    color: #fff;
+}
+.proposal__item-new-price
+{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 22px; 
+
+    display: inline-block;
+
+    box-sizing: border-box;
+    width: 50%;
+    padding: 18px 15px 18px 0;
+
+    text-align: right;
+
+    color: #fff;
+}
+
+.proposal__item:nth-child(1)
+{
+    background-image: url('../img/prop-img1.jpg');
+}
+.proposal__item:nth-child(1) .proposal__item-rates-counter
+{
+    width: 58px;
+}
+
+.proposal__item:nth-child(2)
+{
+    background-image: url('../img/prop-img2.jpg');
+}
+.proposal__item:nth-child(2) .proposal__item-rates-counter
+{
+    width: 104px;
+}
+
+.proposal__item:nth-child(3)
+{
+    background-image: url('../img/prop-img3.jpg');
+}
+.proposal__item:nth-child(3) .proposal__item-rates-counter
+{
+    width: 104px;
+}
+
+.proposal__item:nth-child(4)
+{
+    background-image: url('../img/prop-img4.jpg');
+}
+.proposal__item:nth-child(4) .proposal__item-rates-counter
+{
+    width: 104px;
+}
+
+.proposal__item:nth-child(5)
+{
+    background-image: url('../img/prop-img5.jpg');
+}
+.proposal__item:nth-child(5) .proposal__item-rates-counter
+{
+    width: 58px;
+}
+
+.proposal__item:nth-child(5n)
+{
+    margin-right: 0;
+}
+
 .section-title
 {
     font-weight: 700; 
@@ -1143,7 +1313,7 @@ body
 .section-title--big::before
 {
     top: -40px; 
-    left: calc(50% - 25px);
+    left: calc(50% - 40px);
 }
 
 .send-contacts
