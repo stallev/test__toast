@@ -1,0 +1,46 @@
+.clients{
+  background-color: $gray-section-bg;
+  &__list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+  }
+  &__item{
+    flex: 1;
+    box-sizing: border-box;
+    :hover{
+      background-color: $dark-grey-section;
+    }
+  }
+}
+.clients__item a{
+  display: block;
+  padding: 80px 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.clients__item:nth-child(1) a{
+  background-image: url("../img/icon-slack.png");
+  background-size: 80px auto;
+}
+.clients__item:nth-child(2) a{
+  background-image: url("../img/icon-adobe.png");
+  background-size: 40px auto;
+}
+.clients__item:nth-child(3) a{
+  background-image: url("../img/icon-google.png");
+  background-size: 80px auto;
+}
+.clients__item:nth-child(4) a{
+  background-image: url("../img/icon-facebook.png");
+  background-size: 80px auto;
+}
+.clients__item:nth-child(5) a{
+  background-image: url("../img/icon-spotify.png");
+  background-size: 80px auto;
+}
+.clients__item:nth-child(6) a{
+  background-image: url("../img/icon-unknown.png");
+  background-size: 80px auto;
+}

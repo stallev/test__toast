@@ -1,0 +1,56 @@
+.recalls{
+  box-sizing: border-box;
+  padding-bottom: 160px;
+  background-image: url("../img/clients_bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 120px;
+  &__list{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+  }
+  &__item{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-right: 40px;
+    &-text{
+      font-size: $fsz18;
+      color: $gray-recalls-font-color;
+      font-weight: normal;
+      font-style: normal;
+      line-height: $lh33;
+    }
+    &-user{
+      font-size: $fsz16;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      &-photo{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      &-job{
+        margin-left: 8px;
+        font-weight: 300;
+        color: $light-blue;
+      }
+    }
+  }
+}
+.recalls__item-username{
+  margin-left: 8px;
+  font-weight: bold;
+  color: $light-blue;
+}
+.recalls__item:nth-child(1) .recalls__item-user-photo{
+  background-image: url("../img/user1-photo.png");
+}
+.recalls__item:nth-child(2) .recalls__item-user-photo{
+  background-image: url("../img/user2-photo.png");
+}

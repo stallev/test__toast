@@ -1,0 +1,43 @@
+.recalls-maker{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 515px;
+  margin: 0 auto;
+  padding: 20px 30px;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom, #C2C6CB 0%, #386d7c 100%);
+  &__title{
+    font-size: $fsz36;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $light-blue;
+    text-align: center;
+  }
+  &__description{
+    margin: 0;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: $fsz16;
+    line-height: $lh29;
+  }
+  &__form{
+    margin: 0 auto;
+  }
+  &__field{
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: $fsz18;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  &__submit{
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: $fsz18;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+}

@@ -17,6 +17,10 @@
   &--send-contacts{
     padding: 150px 0 350px;
   }
+  &--footer-container{
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 @media (max-width: $toast-breakpoint-medium) {
