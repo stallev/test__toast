@@ -730,6 +730,80 @@ body
     padding: 0 20px;
 }
 
+.clients
+{
+    background-color: #f6f4f4;
+}
+.clients__list
+{
+    display: -ms-flexbox;
+    display: flex;
+
+    padding: 0; 
+
+    list-style: none;
+
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.clients__item
+{
+    box-sizing: border-box; 
+
+    -ms-flex: 1;
+        flex: 1;
+}
+.clients__item :hover
+{
+    background-color: #6b6867;
+}
+
+.clients__item a
+{
+    display: block;
+
+    padding: 80px 0;
+
+    background-repeat: no-repeat; 
+    background-position: center center;
+}
+
+.clients__item:nth-child(1) a
+{
+    background-image: url('../img/icon-slack.png');
+    background-size: 80px auto;
+}
+
+.clients__item:nth-child(2) a
+{
+    background-image: url('../img/icon-adobe.png');
+    background-size: 40px auto;
+}
+
+.clients__item:nth-child(3) a
+{
+    background-image: url('../img/icon-google.png');
+    background-size: 80px auto;
+}
+
+.clients__item:nth-child(4) a
+{
+    background-image: url('../img/icon-facebook.png');
+    background-size: 80px auto;
+}
+
+.clients__item:nth-child(5) a
+{
+    background-image: url('../img/icon-spotify.png');
+    background-size: 80px auto;
+}
+
+.clients__item:nth-child(6) a
+{
+    background-image: url('../img/icon-unknown.png');
+    background-size: 80px auto;
+}
+
 .container
 {
     width: 1170px;
@@ -751,6 +825,21 @@ body
 .container--send-contacts
 {
     padding: 150px 0 350px;
+}
+.container--footer-container
+{
+    display: -ms-flexbox;
+    display: flex;
+
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.footer
+{
+    padding: 20px;
+
+    background-color: #3e5d66;
 }
 
 .gallery
@@ -1263,6 +1352,160 @@ body
 .proposal__item:nth-child(5n)
 {
     margin-right: 0;
+}
+
+.recalls
+{
+    box-sizing: border-box;
+    padding-bottom: 160px;
+
+    background-image: url('../img/clients_bg.png');
+    background-repeat: no-repeat;
+    background-position: center 120px; 
+    background-size: cover;
+}
+.recalls__list
+{
+    display: -ms-flexbox;
+    display: flex;
+
+    margin-bottom: 100px; 
+
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.recalls__item
+{
+    display: -ms-flexbox;
+    display: flex;
+        flex-direction: column;
+
+    padding-right: 40px; 
+
+    -ms-flex: 1;
+        flex: 1;
+    -ms-flex-direction: column;
+}
+.recalls__item-text
+{
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 33px; 
+
+    color: #bcbcbc;
+}
+.recalls__item-user
+{
+    font-size: 16px;
+
+    display: -ms-flexbox;
+    display: flex;
+
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.recalls__item-user-photo
+{
+    width: 70px;
+    height: 70px;
+
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.recalls__item-user-job
+{
+    font-weight: 300;
+
+    margin-left: 8px;
+
+    color: #36aeea;
+}
+
+.recalls__item-username
+{
+    font-weight: bold;
+
+    margin-left: 8px;
+
+    color: #36aeea;
+}
+
+.recalls__item:nth-child(1) .recalls__item-user-photo
+{
+    background-image: url('../img/user1-photo.png');
+}
+
+.recalls__item:nth-child(2) .recalls__item-user-photo
+{
+    background-image: url('../img/user2-photo.png');
+}
+
+.recalls-maker
+{
+    display: -ms-flexbox;
+    display: flex;
+        flex-direction: column;
+
+    box-sizing: border-box;
+    width: 515px;
+    margin: 0 auto;
+    padding: 20px 30px;
+
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, #c2c6cb 0%, #386d7c 100%); 
+
+    -ms-flex-direction: column;
+}
+.recalls-maker__title
+{
+    font-size: 36px;
+    font-weight: bold;
+
+    text-align: center; 
+    text-transform: uppercase;
+
+    color: #36aeea;
+}
+.recalls-maker__description
+{
+    font-size: 16px;
+    line-height: 29px; 
+
+    margin: 0;
+    margin-bottom: 25px;
+
+    text-align: center;
+}
+.recalls-maker__form
+{
+    margin: 0 auto;
+}
+.recalls-maker__field
+{
+    font-size: 18px;
+
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 20px; 
+    padding: 15px;
+
+    border-radius: 5px;
+}
+.recalls-maker__submit
+{
+    font-size: 18px;
+
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 20px; 
+    padding: 15px;
+
+    border-radius: 5px;
 }
 
 .section-title
