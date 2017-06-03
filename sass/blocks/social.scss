@@ -1,0 +1,23 @@
+.social{
+  &__link{
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    background-position: center;
+    background-repeat: no-repeat;
+    &--twitter{
+      background-color: $twitter-social-bg;
+      background-image: url("../img/icon-twitter-s.png");
+      background-position: 67% 67%;
+    }
+    &--facebook{
+      background-color: $facebook-social-bg;
+      background-image: url("../img/icon-facebook-s.png");
+      background-position: 67% 67%;
+    }
+    &--vk{
+      background-color: $vk-social-bg;
+      background-image: url("../img/icon-vk-s.png");
+    }
+  }
+}

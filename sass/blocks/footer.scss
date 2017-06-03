@@ -1,6 +1,18 @@
 .footer{
   padding: 20px;
   background-color: $footer-color;
+  color: $footer-tel-color;
+  &__copyright{
+    display: inline-block;
+    margin-top: 10px;
+  }
+  &__tel{
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-size: $fsz29;
+    font-weight: bold;
+    text-decoration: none;
+    color: $footer-tel-color;
+  }
 }
 @media (max-width: $toast-breakpoint-medium) {
 }
